@@ -29,6 +29,7 @@ RUN set -eux; \
 		bzip2 \
 		dirmngr \
 		gnupg \
+		libautovivification-perl \
 		libglib2.0-dev \
 		libncurses-dev \
 		libperl-dev \
