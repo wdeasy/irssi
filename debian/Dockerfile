@@ -4,6 +4,7 @@ RUN set -eux; \
 	apt-get update; \
 	apt-get install -y --no-install-recommends \
 		ca-certificates \
+		libautovivification-perl \		
 		libdatetime-perl \
 		libwww-perl \
 		perl \
@@ -29,7 +30,6 @@ RUN set -eux; \
 		bzip2 \
 		dirmngr \
 		gnupg \
-		libautovivification-perl \
 		libglib2.0-dev \
 		libncurses-dev \
 		libperl-dev \
